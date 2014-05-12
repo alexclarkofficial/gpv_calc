@@ -1,1 +1,1 @@
-web: ember serve --environment production --port $PORT
+echo 'web: ember build --environment production && bin/start-nginx -f sleep infinity' >> Procfile
